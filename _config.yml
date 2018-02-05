@@ -1,3 +1,8 @@
 theme: jekyll-theme-slate
 title: Felix Maulwurf
 description: This is a test.
+menu: 
+  - title: "Test1"
+    url: "/test1"
+  - title: "Test2"
+    url: "/test2"
