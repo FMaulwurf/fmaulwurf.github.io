@@ -19,7 +19,7 @@
 
 /* Container around content */
 .container {
-    padding: 10px 40px;
+    padding: 10px 30px;
     position: relative;
     background-color: inherit;
     width: 45%;
@@ -57,7 +57,7 @@
     top: 22px;
     width: 0;
     z-index: 1;
-    right: 30px;
+    right: 20px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #F0F0F0;
@@ -71,7 +71,7 @@
     top: 22px;
     width: 0;
     z-index: 1;
-    left: 30px;
+    left: 20px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent #F0F0F0 transparent transparent;
