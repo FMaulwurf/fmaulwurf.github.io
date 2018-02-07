@@ -99,7 +99,7 @@
   
   /* Full-width containers */
   .container {
-    width: 100%;
+    width: 80%;
     padding-left: 70px;
     padding-right: 25px;
   }
@@ -109,7 +109,7 @@
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #F0F0F0 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
