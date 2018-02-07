@@ -1,7 +1,7 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@
 
 /* Container around content */
 .container {
-    padding: 10px 48px;
+    padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 40%;
@@ -57,7 +57,7 @@
     top: 22px;
     width: 0;
     z-index: 1;
-    right: 38px;
+    right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent #F0F0F0;
@@ -71,7 +71,7 @@
     top: 22px;
     width: 0;
     z-index: 1;
-    left: 38px;
+    left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent #F0F0F0 transparent transparent;
@@ -99,7 +99,7 @@
   
   /* Full-width containers */
   .container {
-    width: 80%;
+    width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
