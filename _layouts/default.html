@@ -19,7 +19,7 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer" style="background: #0B1833; background: -moz-linear-gradient(top, #0B1833, #0F1123); background: -webkit-linear-gradient(top, #0B1833, #0F1123); background: -ms-linear-gradient(top, #0B1833, #0F1123); background: -o-linear-gradient(top, #0B1833, #0F1123); background: linear-gradient(top, #0B1833, #0F1123);">
-        <header class="inner" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0px 0px 0px 0px;">
+        <header class="inner" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0px 0px 0px 0px; max-width: 960px;">
 
           <h1 id="project_title" style="font-family: 'Source Sans Pro', sans-serif;">{{ site.title | default: site.github.repository_name }}</h1>
           <img src="/assets/ich.jpg" alt="Felix Maulwuf" style="height: 200px; border: 0px; box-shadow: 0px 0px; padding:0px; margin:0px 0px 0px 0px;">
@@ -35,7 +35,7 @@
     
     <!-- CV CONTENT -->
     <div id="main_content_wrap" class="outer" style="background:#ffffff">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style=" max-width: 960px;">
         
           <div style="display: flex; flex-direction: column;">
             <p style="margin: 0px; font-size: 28px; font-weight: bold; font-family: 'Source Sans Pro', sans-serif;">
@@ -77,7 +77,7 @@
   
     <!-- W CONTENT -->
     <div id="main_content_wrap" class="outer" style="background:#ffffff">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style=" max-width: 960px;">
           
           <div style="display: flex; flex-direction: column;">
             <p style="margin: 0px; font-size: 28px; font-weight: bold; font-family: 'Source Sans Pro', sans-serif;">
@@ -116,8 +116,8 @@
     </div>
 
 <!-- S CONTENT -->
-    <div id="main_content_wrap" class="outer" style="background:#ffffff">
-      <section id="main_content" class="inner">
+    <div id="main_content_wrap" class="outer" style="background:#ffffff" >
+      <section id="main_content" class="inner" style=" max-width: 960px;">
         
           <div style="display: flex; flex-direction: column;">
             <p style="margin: 0px; font-size: 28px; font-weight: bold; font-family: 'Source Sans Pro', sans-serif;">
@@ -159,7 +159,7 @@
 
     <!-- PF CONTENT -->
     <div id="main_content_wrap" class="outer" style="background:#ffffff">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style=" max-width: 960px;">
         
           <div style="display: flex; flex-direction: column;">
             <p style="margin: 0px; font-size: 28px; font-weight: bold; font-family: 'Source Sans Pro', sans-serif;">
@@ -201,7 +201,7 @@
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer" style="background: #0B1833; background: -moz-linear-gradient(top, #0F1123, #0B1833); background: -webkit-linear-gradient(top, #0F1123, #0B1833); background: -ms-linear-gradient(top, #0F1123, #0B1833); background: -o-linear-gradient(top, #0F1123, #0B1833); background: linear-gradient(top, #0F1123, #0B1833); ">
-      <footer class="inner">
+      <footer class="inner" style=" max-width: 960px;">
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
