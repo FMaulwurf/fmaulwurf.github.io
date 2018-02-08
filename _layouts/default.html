@@ -12,6 +12,7 @@
     <link href="/assets/fonts/fontawesome-all.css" rel="stylesheet">
     <link href="/assets/fonts/flimmefont.css" rel="stylesheet">
     <link href="/assets/css/timeline.css" rel="stylesheet">
+    <link href="/assets/css/navbar.css" rel="stylesheet">
     
 {% seo %}
   </head>
@@ -32,6 +33,13 @@
             </section>
           {% endif %}
         </header>
+    </div>
+     
+    <!-- NAVBAR -->
+    <div id="navbar">
+      <a class="active" href="javascript:void(0)">Home</a>
+      <a href="javascript:void(0)">News</a>
+      <a href="javascript:void(0)">Contact</a>
     </div>
     
     <!-- CV CONTENT -->
@@ -411,6 +419,20 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+  
+    <script>
+    window.onscroll = function() {myFunction()};
 
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
   </body>
 </html>
