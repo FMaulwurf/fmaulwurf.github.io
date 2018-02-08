@@ -14,9 +14,6 @@
     <link href="/assets/css/timeline.css" rel="stylesheet">
     <link href="/assets/css/navbar.css" rel="stylesheet">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/assets/js/simple-skillbar.js"></script>
-    
     <style>
       a.anchor {
           display: block;
@@ -115,7 +112,7 @@
               <div style="height:2px; background: black;"></div>
             </div>
           
-            <div id="skill" data-width="80">JavaScript (80%)</div>
+            <div id="skill" data-width="80" data-background="#0000FF">JavaScript (80%)</div>
           
         </div>
       </section>
@@ -313,7 +310,9 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/assets/js/simple-skillbar.js"></script>
     <script>
       window.onscroll = function() {myFunction()};
 
