@@ -29,6 +29,10 @@
   width: 100%
 }
 
+.cont {
+  padding: 0px;
+}
+
 .sticky + .cont {
   padding-top: 60px;
 }
