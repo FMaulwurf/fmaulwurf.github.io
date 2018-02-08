@@ -4,7 +4,7 @@
   z-index:99;
 }
 
-#navbar a {
+#navbar a, i {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -14,12 +14,12 @@
   font-size: 17px;
 }
 
-#navbar a:hover {
+#navbar a:hover, i:hover {
   background-color: #ddd;
   color: black;
 }
 
-#navbar a.active {
+#navbar a.active, i.active {
   background-color: #4CAF50;
   color: white;
 }
