@@ -1,6 +1,7 @@
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0B1833;
+  z-index:99;
 }
 
 #navbar a {
