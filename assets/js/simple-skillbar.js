@@ -46,13 +46,15 @@
                 position: 'relative',
                 width: '100%',
                 backgroundColor: '#dddddd',
-                height: this.o.height+'px'
+                height: this.o.height+'px',
+                borderRadius: '5px'
             });
             i.find('.sb_bar').css({
                 position: 'absolute',
                 width: '1%',
                 height: '100%',
-                backgroundColor: this.o.background
+                backgroundColor: this.o.background,
+                borderRadius: '5px'
             });
             i.find('.sb_label').css({
                 paddingLeft: '5px',
