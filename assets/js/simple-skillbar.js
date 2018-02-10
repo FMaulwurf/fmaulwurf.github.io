@@ -60,8 +60,7 @@
                 paddingLeft: '8px',
                 lineHeight: this.o.height+'px',
                 color: this.o.textColor,
-                fontFamily: 'Source Sans Pro',
-                fontWeight: 'bold'
+                fontFamily: 'Source Sans Pro'
             });
         };
 
