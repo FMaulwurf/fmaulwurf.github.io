@@ -59,7 +59,8 @@
             i.find('.sb_label').css({
                 paddingLeft: '5px',
                 lineHeight: this.o.height+'px',
-                color: this.o.textColor
+                color: this.o.textColor,
+                fontFamily: 'Source Sans Pro'
             });
         };
 
