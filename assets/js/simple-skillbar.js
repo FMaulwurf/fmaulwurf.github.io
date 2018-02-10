@@ -57,10 +57,9 @@
                 borderRadius: '5px'
             });
             i.find('.sb_label').css({
-                paddingLeft: '5px',
+                paddingLeft: '16px',
                 lineHeight: this.o.height+'px',
-                color: this.o.textColor,
-                fontFamily: 'Source Sans Pro'
+                color: this.o.textColor
             });
         };
 
